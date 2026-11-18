@@ -1,5 +1,9 @@
 # Contrat de production pour les humains et les agents IA
 
+> **Avant toute nouvelle histoire ou nouvelle IA : lire [GUIDE_MASTERPROJECT.md](GUIDE_MASTERPROJECT.md).** Ce guide explique la mémoire permanente `hot/<projet>/MASTERPROJECT.md` et `masterframes/`, les questions à poser, la génération des guides et des workflows dans les dossiers de transfert, ainsi que la découverte d'un nouveau projet par ↻. Les règles de création de clip ci-dessous restent applicables après validation du maître.
+
+
+
 **Objectif :** transformer une histoire en une collection de **workflows JSON ComfyUI exécutables** et de **frames guides compatibles LTX 2.3**, avec des personnages, des objets et des actions cohérents. Ce document sert de consigne à toute nouvelle IA chargée de générer ou de corriger des scènes du projet César.
 
 ## Pourquoi utiliser le Studio

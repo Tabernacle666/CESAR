@@ -28,3 +28,16 @@ Lire **[GUIDE_PRODUCTION_IA.md](GUIDE_PRODUCTION_IA.md)** avant de modifier un w
 Le dépôt ne disposait pas de `.gitignore` au départ : il suit déjà `input/` (81 PNG) et `studio_state.json`. Le `.gitignore` protège **les nouveaux fichiers non suivis** dans ces emplacements, mais ne déversionne **pas** ceux déjà suivis. Les anciennes images et l'état existant ont été préservés pour éviter une suppression au prochain `git pull`. Une migration hors Git des anciens fichiers suivis nécessitera une opération distincte, après sauvegarde de leur copie locale.
 
 Le moteur ComfyUI et ses modèles ne sont pas inclus. L'upscale / deuxième passe est **désactivé pour les essais actuels**, sans empêcher une phase de finition ultérieure.
+
+## Plusieurs projets : MASTERPROJECT + masterframes
+
+Studio peut gérer plusieurs sketches sans écraser les workflows de César. Un dossier comme `hot/snl_musk/` suffit à signaler un nouveau projet : cliquer **↻ Rafraîchir**, puis sélectionner le projet. Le bouton **+ Projet** permet aussi de créer le dossier et son modèle `MASTERPROJECT.md`. Dans la vue Projet, l'éditeur affiche le récit complet et les **masterframes** réutilisables. 
+
+- **Mémoire permanente pendant la création :** `hot/<projet>/MASTERPROJECT.md` et `hot/<projet>/masterframes/`.
+- **Zone de livraison :** `hot/<projet>/workflows/` et `hot/<projet>/guides/`, pour copie manuelle.
+- **Workflows exécutables par Studio :** César lit `data/workflows/` ; les nouveaux projets lisent `projects/<projet>/workflows/` après transfert.
+- **Images réellement utilisées par ComfyUI :** dossier `input_dir` configuré dans Studio, situé de préférence **hors Git**.
+
+Quand un nouvel agent reçoit « on fait un sketch », il doit d'abord **poser les questions permettant de remplir le maître** et établir les masterframes visuelles, avant de commencer les clips. Quand on lui demande ensuite « génère tous les workflows et frames guides », il lit le maître et les masterframes et dépose les fichiers à transférer dans `hot/<projet>/`.
+
+Mode opératoire complet : **[GUIDE_MASTERPROJECT.md](GUIDE_MASTERPROJECT.md)**.

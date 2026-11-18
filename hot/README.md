@@ -1,13 +1,15 @@
-# hot/ — échange temporaire de frames
+# hot/ — espace d'échange ET mémoire permanente des projets
 
-Ce répertoire est **volontairement suivi par Git**. Il sert à échanger les images-guide **nouvelles ou corrigées** entre agents et poste de production, **pas** à stocker les médias permanents.
+Un dossier par projet : `hot/cesar/`, `hot/snl_musk/`, etc. Studio le voit à **↻ Rafraîchir** et peut lui créer un MASTERPROJECT si nécessaire.
 
-1. Déposer ici des **PNG individuels** (pas des planches-contact) en **1920 × 1088**. Nom exact du workflow, ex. `CESAR_S01_C005_F0128.png`.
-2. Pousser seulement les frames modifiées ainsi que tout `data/workflows/*.json` réellement modifié.
-3. Après `git pull`, la personne réceptionnaire **copie manuellement** ces PNG dans son dossier local `ComfyUI/input` / projet **hors Git**, en écrasant les guides ciblés.
-4. Une fois les copies effectuées, enlever les PNG de `hot/` et committer cette suppression si désiré, afin de maintenir un dossier d'échange léger.
-5. Le Studio utilise le dossier `input_dir` configuré dans ses paramètres ; **il ne charge pas automatiquement `hot/`**.
+**Permanents jusqu'à la fin du projet**
+- `hot/<projet>/MASTERPROJECT.md` : narration intégrale, personnages, lieux, objets, décisions verrouillées, découpage.
+- `hot/<projet>/masterframes/` : photos de référence indépendantes des actions du film, réutilisables entre clips et sessions.
 
-Ne pas utiliser `hot/` pour les rendus, latents, audio, modèles, données personnelles ou lots complets ; les fichiers poussés restent présents dans l'historique Git même après leur suppression.
+**Boîtes d'échange temporaires**
+- `hot/<projet>/workflows/` : nouveaux JSON ComfyUI à copier manuellement dans `data/workflows/` (César) ou `projects/<projet>/workflows/` (autres projets).
+- `hot/<projet>/guides/` : guides `<PROJET>_Sxx_Cxxx_Fxxxx.png` à copier manuellement dans le vrai `ComfyUI/input` **hors Git**.
 
-Consignes de création et de vérification : [GUIDE_PRODUCTION_IA.md](../GUIDE_PRODUCTION_IA.md).
+Le Studio ne transfère pas automatiquement les images ; il lit les workflows transférés, non les JSON en attente sous `hot/`. Les dossiers et fichiers contenus dans `hot/` sont volontairement versionnés (y compris les PNG temporaires : ils restent dans l'historique Git après suppression).
+
+Pour un nouvel agent IA : **lire [GUIDE_MASTERPROJECT.md](../GUIDE_MASTERPROJECT.md)** puis [GUIDE_PRODUCTION_IA.md](../GUIDE_PRODUCTION_IA.md).

@@ -43,3 +43,9 @@ Desktop.ini
 # Le dossier hot/ est VOLONTAIREMENT versionné pour échanger les frames.
 # Ne pas l'ignorer. Les PNG existants dans input/ restent suivis jusqu'à
 # une migration explicite avec sauvegarde préalable.
+
+# États personnels des autres projets et copies input intermédiaires
+/projects/*/studio_state.json
+/projects/*/input/
+/projects/*/output/
+# hot/ et projects/*/workflows/ restent volontairement suivis.
