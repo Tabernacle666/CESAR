@@ -88,27 +88,28 @@ Une image sortie d'une **planche-contact** n'est pas l'équivalent d'une vraie i
 
 La durée demandée se convertit en **N = 8k + 1** frames ; à 24 FPS, la durée effectivement générée est **(N − 1) / 24** secondes. Pour 10 secondes, N=241 et LAST=F0240. Pour 12 secondes, N=289 et LAST=F0288. Le MIDDLE est à un multiple de huit entre 0 et N−1 (sans prendre les extrémités). Si la durée change, **recalculer le nom de LAST, le nom/index de MIDDLE, la liste d'indices de capture et le texte**. Ne pas conserver des index devenus hors plage.
 
-**Nommage impératif des images :** `CESAR_Sxx_Cxxx_Fxxxx.png` ; par exemple `CESAR_S02_C004_F0080.png`. Le `Fxxxx` est l'**index de frame**, pas un numéro arbitraire d'image. Les noms dans les JSON doivent correspondre aux fichiers présents exactement, y compris les zéros.
+**Nommage impératif des images :** `<PROJET>_Sxx_Cxxx_Fxxxx.png` (`CESAR_` pour l'héritage César) ; par exemple `CESAR_S02_C004_F0080.png`. Le `Fxxxx` est l'**index de frame**, pas un numéro arbitraire d'image. Les noms dans les JSON doivent correspondre aux fichiers présents exactement, y compris les zéros.
 
 ## Échange des corrections et fichiers à livrer
 
 ```text
-CESAR/                         dépôt Git (code + JSON + échange temporaire)
-  data/workflows/
-    S01_C003_LTX23_API.json
-  hot/
-    CESAR_S01_C003_F0128.png    uniquement les nouveaux guides/correctifs à échanger
-    CESAR_S01_C003_F0264.png
-  GUIDE_PRODUCTION_IA.md
+CESAR/                                dépôt Git et application Studio
+  data/workflows/                      workflows historiques César
+  projects/<projet>/workflows/         workflows d'un nouveau projet, une fois transférés
+  hot/<projet>/
+    MASTERPROJECT.md                   scénario complet et mémoire permanente
+    masterframes/                      références réutilisables et permanentes
+    workflows/                         nouveaux JSON à transférer manuellement
+    guides/                            nouveaux PNG à transférer manuellement
 
 <dossier de production hors Git>/
-  input/                         bibliothèque réelle des guides
-  output/                        vidéos et fichiers de travail, latents, son, etc.
+  ComfyUI/input/                       bibliothèque réelle des guides
+  output/                              vidéos, audio et latents
 ```
 
-Les fichiers sous `hot/` sont **destinés à être suivis temporairement par Git** pour permettre leur échange. Le réceptionnaire les **copie manuellement** dans son dossier de projet / `ComfyUI/input` hors Git ; **le Studio ne le fait pas automatiquement**. Après réception, vider `hot/` des images consommées lors d'un commit ultérieur (elles resteront techniquement dans l'historique Git : ne pas y mettre de secrets ou d'images qu'il faut absolument effacer).
+**Master et masterframes restent dans hot pendant le projet.** Seuls les workflows et guides nouvellement produits passent par les deux dossiers de transfert. La personne réceptionnaire copie les workflows vers le dossier exécutable et les guides dans le dossier `ComfyUI/input` externe configuré dans Studio. Le Studio ne copie pas automatiquement.
 
-**Livrable d'une correction :** seulement les JSON réellement changés dans `data/workflows/` et les nouvelles images dans `hot/`. Ne pas remettre en circulation les 81 PNG ou les 27 workflows si deux clips seulement changent. Respecter les fichiers existants et les décisions Ready ; ne pas modifier un autre clip sous prétexte de nettoyage.
+**Livrable d'une correction :** seulement les workflows effectivement modifiés dans `hot/<projet>/workflows/` et les guides modifiés dans `hot/<projet>/guides/`. Si la narration évolue, corriger également `MASTERPROJECT.md`. Aucun autre clip ne doit être remplacé sous prétexte de nettoyage.
 
 ## Checklist minimale avant de livrer
 
@@ -116,7 +117,7 @@ Les fichiers sous `hot/` sont **destinés à être suivis temporairement par Git
 2. **Images :** FIRST/MIDDLE/LAST tous présents et **visuellement différents** ; les personnages nécessaires sont visibles aux bons moments ; aucun visage remplacé, aucun objet téléporté, aucune auto figée.
 3. **Noms :** tous les fichiers correspondent aux `LoadImage` actifs ; tailles et orientation cohérentes ; aucun texte de storyboard sur les PNG.
 4. **Workflow :** JSON API lisible ; durée et index compatibles `8k+1` ; MIDDLE strictement intérieur ; LAST à N−1 ; nœud 6 vide ; nœud 104 false ; modèle et chaîne LTX préservés.
-5. **Delta Git :** uniquement les fichiers requis ; aucune sortie vidéo, modèle, cache, état personnel ou archive complète dans le commit. Les images de correction passent par `hot/`.
+5. **Delta Git :** uniquement les fichiers requis ; aucune sortie vidéo, modèle, cache, état personnel ou archive complète dans le commit. Les images de correction passent par `hot/<projet>/guides/`, les JSON par `hot/<projet>/workflows/`.
 
 **Important :** une vérification de noms, d'hachages ou de JSON ne prouve **pas** la cohérence du récit. Regarder réellement les trois guides côte à côte. En cas de contradiction, corriger l'image ou le récit avant de livrer ; ne pas annoncer « terminé » parce que le ZIP s'ouvre.
 
