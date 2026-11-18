@@ -1,0 +1,643 @@
+{
+  "project_name": "César — The Teen Whisperer",
+  "project_pass2": false,
+  "scene_pass2": {},
+  "clip_pass2": {},
+  "ready": {},
+  "scene_locked": {},
+  "input_dir": "D:\\GITLINK\\CESAR\\input",
+  "comfy_url": "http://127.0.0.1:8188",
+  "queue": {
+    "pending": [],
+    "active": null,
+    "state": "idle",
+    "last_error": "",
+    "completed": [
+      {
+        "key": "S01_C005",
+        "prompt_id": "50d5f2c2-0648-412a-b74b-a10fce7904c4",
+        "finished": "2026-11-18T01:32:41+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C005_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C005_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C005_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C005_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C004",
+        "prompt_id": "2271996a-4826-46c8-b607-fbdd7b00313e",
+        "finished": "2026-11-18T01:30:12+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C004_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C004_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C004_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C004_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C003",
+        "prompt_id": "a563d82c-57cb-486f-8806-a2cb53f09d2b",
+        "finished": "2026-11-18T01:28:18+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C003_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C003_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C003_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C003_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C002",
+        "prompt_id": "48ca2fe3-ec6b-4834-b587-f29a63febd6d",
+        "finished": "2026-11-18T01:25:50+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C002_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C002_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C002_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C002_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C001",
+        "prompt_id": "e6442e8d-fe8f-4bce-b980-fa7bf0a898c5",
+        "finished": "2026-11-18T01:23:49+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C001_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C001_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C001_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C001_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C005",
+        "prompt_id": "0626960f-385c-425d-aabc-fbe161cbdacd",
+        "finished": "2026-11-18T01:20:08+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C005_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C005_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C005_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C005_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C004",
+        "prompt_id": "a1103b98-0f74-42b6-8704-a151bdbb14be",
+        "finished": "2026-11-18T01:17:39+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C004_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C004_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C004_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C004_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C003",
+        "prompt_id": "2740eddb-56d7-4114-a0bc-d658167561fa",
+        "finished": "2026-11-18T01:15:51+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C003_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C003_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C003_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C003_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C002",
+        "prompt_id": "2c830daa-4f27-4792-bae3-c4d9c0a4213b",
+        "finished": "2026-11-18T01:13:25+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C002_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C002_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C002_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C002_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C001",
+        "prompt_id": "89b74553-b75f-4af9-b881-bcbc8e2a987e",
+        "finished": "2026-11-18T01:11:07+00:00",
+        "outputs": {
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C001_00004_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00005_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00006_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          },
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C001_00002-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C001_00002.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C001_00002-audio.mp4"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C001",
+        "prompt_id": "bf95a012-e216-44c8-880c-832dc2b1a23e",
+        "finished": "2026-11-18T00:50:19+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C001_00002-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C001_00002.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C001_00002-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C001_00004_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00005_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00006_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C005",
+        "prompt_id": "3b4658b8-1b6c-4322-b5fc-788de4e20b7e",
+        "finished": "2026-11-18T00:21:11+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C005_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C005_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C005_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C005_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C005_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C004",
+        "prompt_id": "0afea402-0e2e-42cb-93e1-257691ef3cd2",
+        "finished": "2026-11-18T00:18:36+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C004_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C004_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C004_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C004_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C004_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C003",
+        "prompt_id": "2a263ec9-fa46-4920-a253-0b7bdcc073b7",
+        "finished": "2026-11-18T00:16:51+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C003_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C003_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C003_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C003_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C003_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C002",
+        "prompt_id": "5ab3b2f7-3cc8-4eb3-b485-5d471008fa75",
+        "finished": "2026-11-18T00:14:26+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C002_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C002_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C002_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C002_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C002_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "S01_C001",
+        "prompt_id": "c233b469-5ff1-45ec-804f-a940cb2dcd32",
+        "finished": "2026-11-18T00:12:21+00:00",
+        "outputs": {
+          "108": {
+            "gifs": [
+              {
+                "filename": "S01_C001_00001-audio.mp4",
+                "subfolder": "CESAR",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 24.0,
+                "workflow": "S01_C001_00001.png",
+                "fullpath": "C:\\Users\\toaster\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output\\CESAR\\S01_C001_00001-audio.mp4"
+              }
+            ]
+          },
+          "103": {
+            "images": [
+              {
+                "filename": "S01_C001_00001_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00002_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              },
+              {
+                "filename": "S01_C001_00003_.png",
+                "subfolder": "CESAR\\diagnostic",
+                "type": "output"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "applied_revision": "CESAR_TRIPLE_GUIDE_NO_UPSCALE_R3"
+}

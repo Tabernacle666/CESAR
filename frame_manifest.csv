@@ -1,0 +1,82 @@
+﻿clip,stage,index,file,visual,source_material
+S01_C001,FIRST,0,CESAR_S01_C001_F0000.png,"High aerial snowy Quebec residential street, black SUV approaching stone house",S01_C001_F0000
+S01_C001,MIDDLE,104,CESAR_S01_C001_F0104.png,"Drone lower above snowy suburban street, black SUV turning into house driveway",EXTRAS_AERIAL
+S01_C001,LAST,216,CESAR_S01_C001_F0216.png,Close aerial of house and driveway with black SUV fully stopped in front,S01_C005_F0000
+S01_C002,FIRST,0,CESAR_S01_C002_F0000.png,"Mother in beige cardigan at hallway end, Nathan bedroom door closed, her hand about to reach handle",S01_C002_F0000
+S01_C002,MIDDLE,104,CESAR_S01_C002_F0104.png,"Bedroom door opens, curly dark-haired teenage Nathan clearly visible inside wearing black headphones and hoodie, phone in hand, shouting at mother",S03_C002_F0264
+S01_C002,LAST,216,CESAR_S01_C002_F0216.png,"Mother stands frozen at open door looking directly at Nathan inside bedroom; Nathan looks back down at phone, both clearly visible",S01_C002_F0216
+S01_C003,FIRST,0,CESAR_S01_C003_F0000.png,Mother beige cardigan sits worried on gray living room sofa with hands clenched,S01_C003_F0000
+S01_C003,MIDDLE,128,CESAR_S01_C003_F0128.png,"Mother speaking sadly, opens hands toward camera, dirty white dinner plate on coffee table visible",S01_C003_F0264
+S01_C003,LAST,264,CESAR_S01_C003_F0264.png,"Mother glances down at dirty white plate on coffee table, her hands now relaxed",S02_C004_F0000
+S01_C004,FIRST,0,CESAR_S01_C004_F0000.png,Curly-haired bearded father in plaid shirt sits on same gray living room couch looking to off-camera interviewer,S01_C004_F0000
+S01_C004,MIDDLE,96,CESAR_S01_C004_F0096.png,Father leans forward and gestures with his hand while speaking,S02_C002_F0000
+S01_C004,LAST,192,CESAR_S01_C004_F0192.png,Father finishes sentence with small defeated shoulder shrug looking deadpan into camera,S01_C004_F0192
+S01_C005,FIRST,0,CESAR_S01_C005_F0000.png,Silver-haired Latino Cesar in black fleece exits black SUV at snow-covered Quebec house driveway,S01_C005_F0000
+S01_C005,MIDDLE,128,CESAR_S01_C005_F0128.png,"Same Cesar stands outside SUV and talks directly to documentary camera, one hand gesturing",S01_C005_F0128
+S01_C005,LAST,264,CESAR_S01_C005_F0264.png,"Same Cesar now stands in front of closed black SUV door, fixed dead-serious stare into camera",S01_C005_F0264
+S02_C001,FIRST,0,CESAR_S02_C001_F0000.png,"Teen Nathan curled on gray couch with black headphones and smartphone, parents behind couch, Cesar just entering room",S02_C001_F0000
+S02_C001,MIDDLE,96,CESAR_S02_C001_F0096.png,"Cesar moves near sofa, raises hand at parents to keep them quiet; Nathan fully visible",S02_C005_F0168
+S02_C001,LAST,192,CESAR_S02_C001_F0192.png,Mother behind gray couch whispers to Cesar with concerned face; Nathan still visible scrolling phone,S03_C001_F0000
+S02_C002,FIRST,0,CESAR_S02_C002_F0000.png,Father in plaid shirt bends toward silver-haired Cesar in salon; Nathan visible reclining behind,S02_C002_F0000
+S02_C002,MIDDLE,120,CESAR_S02_C002_F0120.png,"Cesar turns and points to gray couch, TV and white wifi router while explaining",S02_C002_F0120
+S02_C002,LAST,240,CESAR_S02_C002_F0240.png,"Cesar finishes looking sternly at father, father lowers gaze at Nathan in background",S02_C002_F0240
+S02_C003,FIRST,0,CESAR_S02_C003_F0000.png,"Nathan lounging on gray couch, phone in right hand, left empty hand reaching toward mother; mother visible to side",S02_C003_F0000
+S02_C003,MIDDLE,72,CESAR_S02_C003_F0072.png,"Mother now searching open bag next to couch, Nathan left hand still reaching; his headphones visible",S02_C004_F0000
+S02_C003,LAST,144,CESAR_S02_C003_F0144.png,Mother pulls long white charging cable from bag and moves it to Nathan while he gazes at phone,S02_C004_F0080
+S02_C004,FIRST,0,CESAR_S02_C004_F0000.png,Mother holding white phone charging cable stretched toward Nathan on couch; Cesar stands nearby,S02_C004_F0080
+S02_C004,MIDDLE,80,CESAR_S02_C004_F0080.png,"Cesar suddenly raises open hand to stop mother, she freezes cable midair; Nathan visible",S02_C004_F0168
+S02_C004,LAST,168,CESAR_S02_C004_F0168.png,"Cesar looks to father while speaking, mother still holding the cord motionless and Nathan visible behind",S02_C005_F0168
+S02_C005,FIRST,0,CESAR_S02_C005_F0000.png,"Mother holds white phone cable against chest, protests near gray couch; Cesar facing her; Nathan visible",S02_C004_F0000
+S02_C005,MIDDLE,80,CESAR_S02_C005_F0080.png,Cesar addresses mother directly with stern look while she stares at him confused,S05_C004_F0000
+S02_C005,LAST,168,CESAR_S02_C005_F0168.png,"Mother now frozen and astonished, father lowered head beside her; Nathan remains on gray couch using phone",S02_C001_F0000
+S03_C001,FIRST,0,CESAR_S03_C001_F0000.png,Silver-haired Cesar stands at coffee table holding attention of parents; dirty white plate lies on wooden table; Nathan visible,S03_C001_F0000
+S03_C001,MIDDLE,104,CESAR_S03_C001_F0104.png,Cesar picks up dirty white plate from table while finishing instruction,S03_C004_F0000
+S03_C001,LAST,216,CESAR_S03_C001_F0216.png,Cesar sets dirty white plate down directly in front of Nathan on table; all actors visible,S03_C002_F0000
+S03_C002,FIRST,0,CESAR_S03_C002_F0000.png,Cesar gestures at dirty white plate on coffee table in front of Nathan on gray couch,S03_C002_F0000
+S03_C002,MIDDLE,128,CESAR_S03_C002_F0128.png,"Nathan lifts head from phone to look at Cesar, holding headphones over ears",S03_C002_F0128
+S03_C002,LAST,264,CESAR_S03_C002_F0264.png,"Nathan responds angrily while facing Cesar, then turns eyes to phone; dirty plate remains",S03_C002_F0264
+S03_C003,FIRST,0,CESAR_S03_C003_F0000.png,Mother on couch leans across coffee table reaching for dirty plate; Cesar and Nathan visible,S03_C003_F0000
+S03_C003,MIDDLE,96,CESAR_S03_C003_F0096.png,Cesar turns sharply and raises finger at mother while she freezes hand mid-reach,S02_C002_F0240
+S03_C003,LAST,192,CESAR_S03_C003_F0192.png,"Mother has withdrawn hand and sat back, Cesar watchful; dirty plate remains before Nathan",S03_C005_F0000
+S03_C004,FIRST,0,CESAR_S03_C004_F0000.png,"Cesar leans forward, fingers on dirty plate on table as he begins sliding it to Nathan",S03_C004_F0000
+S03_C004,MIDDLE,104,CESAR_S03_C004_F0104.png,Cesar points toward plate and speaks to father in plaid shirt beside sofa,S03_C004_F0104
+S03_C004,LAST,216,CESAR_S03_C004_F0216.png,"Father responds with dry expression, Cesar watches Nathan distracted on couch",S02_C002_F0000
+S03_C005,FIRST,0,CESAR_S03_C005_F0000.png,Cesar turns from Nathan to worried parents while talking; everyone visible,S03_C005_F0000
+S03_C005,MIDDLE,104,CESAR_S03_C005_F0104.png,Nathan lifts head and questions the people in his living room,S03_C005_F0104
+S03_C005,LAST,216,CESAR_S03_C005_F0216.png,Father rises from couch toward doorway; Cesar extends hand to stop him,S03_C005_F0216
+S03_C006,FIRST,0,CESAR_S03_C006_F0000.png,"Father in plaid stands beside couch moving away, Cesar approaches and lays two fingers on his forearm",S03_C005_F0216
+S03_C006,MIDDLE,96,CESAR_S03_C006_F0096.png,"Cesar holds father back, father looks surprised around his own room",S03_C006_F0192
+S03_C006,LAST,192,CESAR_S03_C006_F0192.png,"Father reseats himself on sofa, a tiny emotional smile, Cesar nods",S01_C004_F0000
+S04_C001,FIRST,0,CESAR_S04_C001_F0000.png,"Cesar in dark fleece stands on sidewalk with mother beige jacket, bearded father in plaid, Nathan in hoodie and headphones",S04_C001_F0000
+S04_C001,MIDDLE,96,CESAR_S04_C001_F0096.png,Cesar speaks to camera and gestures to family to start walking,S04_C002_F0000
+S04_C001,LAST,192,CESAR_S04_C001_F0192.png,"Family begins walking along tree-lined residential sidewalk, Nathan trailing slightly behind",S04_C004_F0000
+S04_C002,FIRST,0,CESAR_S04_C002_F0000.png,Group walks along tree-lined Quebec sidewalk; Nathan several steps behind,S04_C002_F0000
+S04_C002,MIDDLE,104,CESAR_S04_C002_F0104.png,Mother points back to walking Nathan with excited open smile; Cesar turns toward her,S04_C004_F0000
+S04_C002,LAST,216,CESAR_S04_C002_F0216.png,"Cesar motions mother to settle down; mother presses lips together and keeps walking, Nathan behind",S04_C002_F0216
+S04_C003,FIRST,0,CESAR_S04_C003_F0000.png,Friendly middle-aged neighbor in baseball cap and quilted vest walks toward Nathan on residential sidewalk,S04_C003_F0000
+S04_C003,MIDDLE,96,CESAR_S04_C003_F0096.png,"Neighbor greets Nathan who gives brief half-wave, both faces visible",S04_C003_F0096
+S04_C003,LAST,192,CESAR_S04_C003_F0192.png,Neighbor continues past; mother behind Nathan freezes astonished,S04_C003_F0192
+S04_C004,FIRST,0,CESAR_S04_C004_F0000.png,"Mother points excitedly at Nathan on sidewalk, Cesar beside her, neighbor nearby",S04_C004_F0000
+S04_C004,MIDDLE,80,CESAR_S04_C004_F0080.png,"Cesar abruptly signals hush with one finger, mother freezes speaking",S04_C004_F0080
+S04_C004,LAST,168,CESAR_S04_C004_F0168.png,"Neighbor freezes midstep startled by Cesar, then continues looking back confused",S04_C004_F0168
+S05_C001,FIRST,0,CESAR_S05_C001_F0000.png,Cesar crouches to set up small video camera on tripod in living room; Nathan on sofa with phone,S05_C001_F0000
+S05_C001,MIDDLE,104,CESAR_S05_C001_F0104.png,"Cesar adjusts camera lens, parents watching from behind sofa",S05_C002_F0000
+S05_C001,LAST,216,CESAR_S05_C001_F0216.png,"Cesar stands aside from tripod, parents sit quietly watching Nathan",S05_C001_F0216
+S05_C002,FIRST,0,CESAR_S05_C002_F0000.png,Cesar at edge of salon frame watching Nathan lay on gray sofa using phone,S05_C002_F0000
+S05_C002,MIDDLE,96,CESAR_S05_C002_F0096.png,Mother walks into frame with clear glass of water toward reclining Nathan,S05_C002_F0096
+S05_C002,LAST,192,CESAR_S05_C002_F0192.png,Nathan accepts water without looking away from phone; Cesar writes notes at edge,S05_C003_F0000
+S05_C003,FIRST,0,CESAR_S05_C003_F0000.png,"Nathan reclining and sighing on gray sofa, father and mother visible behind",S05_C003_F0000
+S05_C003,MIDDLE,104,CESAR_S05_C003_F0104.png,"Father rises to adjust white wall thermostat, Nathan still visible behind on sofa",EXTRAS_THERMOSTAT
+S05_C003,LAST,216,CESAR_S05_C003_F0216.png,"Mother extends bank card from open wallet toward Nathan, father visible by thermostat",S05_C003_F0216
+S05_C004,FIRST,0,CESAR_S05_C004_F0000.png,Cesar addresses documentary camera foreground with Nathan and parents visible behind,S05_C004_F0000
+S05_C004,MIDDLE,120,CESAR_S05_C004_F0120.png,"Cesar gestures behind at parents while explaining, Nathan remains flat on sofa",S05_C001_F0000
+S05_C004,LAST,240,CESAR_S05_C004_F0240.png,Cesar looks over shoulder at Nathan on couch with astonished expression,S05_C004_F0240
+S05_C005,FIRST,0,CESAR_S05_C005_F0000.png,"Father in plaid asks Cesar question by couch, Nathan behind them",S05_C005_F0000
+S05_C005,MIDDLE,144,CESAR_S05_C005_F0144.png,"Cesar holds smartphone close to face as it rings, his firm expression softens",S05_C005_F0144
+S05_C005,LAST,288,CESAR_S05_C005_F0288.png,"Cesar smiles obediently on phone, Nathan behind suddenly raises head to look at him",S05_C005_F0288
+S06_C001,FIRST,0,CESAR_S06_C001_F0000.png,"Nathan sits upright on gray couch facing Cesar, black headphones at neck, cheeky grin",S03_C005_F0104
+S06_C001,MIDDLE,96,CESAR_S06_C001_F0096.png,"Cesar raises hand toward Nathan and shushes him, Nathan watching closely",EXTRAS_CESAR_SHUSH
+S06_C001,LAST,192,CESAR_S06_C001_F0192.png,"Nathan imitates shush hand gesture directly toward Cesar, Cesar freezes dumbstruck",EXTRAS_TEEN_SHUSH
+S06_C002,FIRST,0,CESAR_S06_C002_F0000.png,"Different middle-aged woman in purple cardigan stands in a doorway to a blue lit basement, tells camera about husband",EXTRAS_BASEMENT_WOMAN
+S06_C002,MIDDLE,96,CESAR_S06_C002_F0096.png,Camera looks past woman down stairs to blue lit gaming basement where adult man wearing headset seated at computer,S06_C002_F0192
+S06_C002,LAST,192,CESAR_S06_C002_F0192.png,Adult bearded man with headphones at gaming computer in blue lit basement turns head partly and shouts while his game stays on screen,EXTRAS_BASEMENT_MAN
