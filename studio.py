@@ -20,6 +20,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parent
 HOT_ROOT = ROOT / 'hot'
 PROJECTS_ROOT = ROOT / 'projects'
+ACTIVE_FILE = ROOT / '.studio_active_project'
 ACTIVE_PROJECT = 'cesar'
 WF_DIR = ROOT / 'data' / 'workflows'  # Legacy César location, preserved.
 STATE_FILE = ROOT / 'studio_state.json'
@@ -127,7 +128,8 @@ def ensure_master(slug):
     slug = validate_project(slug)
     path = master_path(slug)
     path.parent.mkdir(parents=True, exist_ok=True)
-    (path.parent / 'masterframes').mkdir(exist_ok=True)
+    for dirname in ('masterframes','guides','workflows'):
+        (path.parent / dirname).mkdir(exist_ok=True)
     if not path.exists():
         path.write_text(master_template(slug), encoding='utf-8')
     return path
@@ -148,6 +150,10 @@ def write_master(content):
     temp = path.with_suffix('.md.tmp')
     temp.write_text(content, encoding='utf-8')
     os.replace(temp, path)
+    heading = next((line[2:].strip() for line in content.splitlines() if line.startswith('# ')), '')
+    if heading:
+        STATE['project_name'] = heading
+        save_state()
     return master_data()
 
 def project_catalog():
@@ -193,6 +199,7 @@ def activate_project(slug):
             STATE['input_dir'] = str(INPUT_FALLBACK)
             STATE['project_pass2'] = False
         save_state()
+        ACTIVE_FILE.write_text(slug+'\n', encoding='utf-8')
         return tree_data()
 
 def create_project(slug):
@@ -602,6 +609,11 @@ class Handler(BaseHTTPRequestHandler):
 if __name__=='__main__':
     WF_DIR.mkdir(parents=True,exist_ok=True);INPUT_FALLBACK.mkdir(exist_ok=True);HOT_ROOT.mkdir(exist_ok=True)
     if not STATE_FILE.exists():save_state()
+    if ACTIVE_FILE.is_file():
+        remembered = ACTIVE_FILE.read_text(encoding='utf-8').strip().lower()
+        if remembered != 'cesar' and remembered in discovered_projects():
+            try:activate_project(remembered)
+            except ValueError:pass  # Leave a pending queue untouched on startup.
     srv=ThreadingHTTPServer(('127.0.0.1',PORT),Handler)
     print(f'César Workflow Studio: http://127.0.0.1:{PORT}/')
     print(f'Workflows: {WF_DIR} ({len(find_workflows())} JSON)')
