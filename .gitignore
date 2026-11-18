@@ -1,0 +1,45 @@
+# César Studio — fichiers locaux et éphémères
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*~
+
+# État de session, positions locales et files d'exécution
+/studio_state.json
+
+# Fichiers de production : les copies permanentes restent HORS du dépôt
+/input/
+/output/
+/temp/
+/tmp/
+/local/
+/project/
+/production/
+/models/
+/user/
+
+# Rendus, audio et latents créés localement (pas les guides hot)
+/*.mp4
+/*.mov
+/*.webm
+/*.wav
+/*.flac
+/*.latent
+/*.safetensors
+
+# Le dossier hot/ est VOLONTAIREMENT versionné pour échanger les frames.
+# Ne pas l'ignorer. Les PNG existants dans input/ restent suivis jusqu'à
+# une migration explicite avec sauvegarde préalable.
