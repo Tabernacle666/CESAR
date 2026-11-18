@@ -36,15 +36,11 @@ $$('#tree [data-project]').forEach(b=>b.onclick=()=>selectProject(b.dataset.proj
 $$('#tree .tree-item[data-level]').forEach(b=>b.onclick=()=>{if(b.dataset.level==='scene'&&selection.level==='scene'&&selection.id===b.dataset.id){expanded.has(b.dataset.id)?expanded.delete(b.dataset.id):expanded.add(b.dataset.id);renderTree();return}select(b.dataset.level,b.dataset.id)});
 $('#addProject').onclick=createProject;
 }
-$$('#tree .tree-item').forEach(b=>b.onclick=()=>{if(b.dataset.level==='scene'&&selection.level==='scene'&&selection.id===b.dataset.id){expanded.has(b.dataset.id)?expanded.delete(b.dataset.id):expanded.add(b.dataset.id);renderTree();return}select(b.dataset.level,b.dataset.id)})}
 function $$(sel,root=document){return [...root.querySelectorAll(sel)]}
 function renderSelection(){if(!tree)return;const s=currentScene();const loc=selection.level;
 $('#bread').textContent=loc==='project'?tree.project:`${tree.project} / ${s?.id||''}${loc==='clip'?' / '+clip?.clip:''}`;
 $('#generate').textContent=`▶ Générer ${loc==='project'?'projet':loc==='scene'?'scène':'clip'}`;
 $('#generate').disabled=tree.count===0;
-if(loc==='project')drawProject();else if(loc==='scene')drawScene(s);else if(clip)drawClip();drawInspector()}
-$('#bread').textContent=loc==='project'?tree.project:`${tree.project} / ${s?.id||''}${loc==='clip'?' / '+clip?.clip:''}`;
-$('#generate').textContent=`▶ Générer ${loc==='project'?'projet':loc==='scene'?'scène':'clip'}`;
 if(loc==='project')drawProject();else if(loc==='scene')drawScene(s);else if(clip)drawClip();drawInspector()}
 function pill(text,isok){return `<span class="pill ${isok?'ok':'warn'}">${esc(text)}</span>`}
 function drawProject(){
