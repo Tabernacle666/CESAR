@@ -49,3 +49,4 @@ Desktop.ini
 /projects/*/input/
 /projects/*/output/
 # hot/ et projects/*/workflows/ restent volontairement suivis.
+\n# Dernier projet ouvert (configuration locale)\n/.studio_active_project\n
